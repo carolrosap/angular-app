@@ -1,0 +1,90 @@
+.see-form__group {
+  margin-bottom: 24px;
+}
+.see-form__label {
+  color: #333333;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 16px;
+  margin-bottom: 4px;
+  font-family: "Roboto", sans-serif;
+}
+.see-form__option {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  line-height: normal;
+  margin-bottom: 8px;
+  position: relative;
+}
+.see-form__option > input {
+  opacity: 0;
+  position: absolute;
+}
+.see-form__option > .see-form__label {
+  font-weight: 400;
+  margin-bottom: 0;
+  padding: 0 0 0 28px;
+}
+.see-form__option > input + .see-form__label:before {
+  background: #fff;
+  box-shadow: inset 0 0 0 2px #b2b2b2;
+  content: "";
+  display: inline-block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s linear;
+  width: 20px;
+}
+.see-form__option > .see-form__radio + .see-form__label:before {
+  border-radius: 50%;
+}
+.see-form__option > .see-form__check + .see-form__label:before {
+  border-radius: 2px;
+}
+.see-form__option > input + .see-form__label:after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  transition: all 0.3s linear;
+}
+.see-form__option > input:not(:disabled):hover + .see-form__label:before {
+  box-shadow: inset 0 0 0 2px #707070;
+}
+.see-form__option > input:focus + .see-form__label:before {
+  box-shadow: inset 0 0 0 2px goldenrod;
+}
+.see-form__option > input:checked + .see-form__label:after {
+  opacity: 1;
+}
+.see-form__option > input:disabled + .see-form__label {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.see-form__option > input:disabled + .see-form__label:before {
+  background-color: #f5f5f5;
+}
+.see-form__option
+  > .see-form__radio:not(:disabled):checked
+  + .see-form__label:before {
+  box-shadow: inset 0 0 0 8px goldenrod;
+}
+.see-form__option
+  > .see-form__check:not(:disabled):checked
+  + .see-form__label:before {
+  box-shadow: inset 0 0 0 10px goldenrod;
+}
+.see-form__option > .see-form__radio + .see-form__label:after {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+  height: 8px;
+  left: 6px;
+  top: 6px;
+  width: 8px;
+}
+.see-form__label + .see-form__option {
+  margin-top: 4px;
+}

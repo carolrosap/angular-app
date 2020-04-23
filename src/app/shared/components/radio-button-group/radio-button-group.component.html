@@ -1,0 +1,23 @@
+<div>
+  <fieldset
+    aria-labelledby="lb-activity"
+    class="see-form__group"
+    role="radiogroup"
+  >
+    <div class="see-form__option" *ngFor="let element of elementsArray">
+      <input
+        class="see-form__radio"
+        id="{{ element.id }}"
+        name="activity"
+        type="radio"
+        value="{{ element.value }}"
+        [disabled]="element.isDisabled"
+        [checked]="element.isSelected"
+        (change)="onChangeSelection(element)"
+      />
+      <label class="see-form__label" for="{{ element.id }}">
+        {{ element.name }}
+      </label>
+    </div>
+  </fieldset>
+</div>
