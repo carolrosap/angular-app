@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-radio-button-group',
@@ -14,7 +15,9 @@ export class RadioButtonGroupComponent implements OnInit {
 
   @Output() returnElement = new EventEmitter();
 
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit() {
   }
@@ -22,5 +25,6 @@ export class RadioButtonGroupComponent implements OnInit {
   onChangeSelection(element) {
     this.returnElement.emit(element);
   }
+
 
 }

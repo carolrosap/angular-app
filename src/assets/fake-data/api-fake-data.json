@@ -90,6 +90,44 @@
       "active": "true",
       "img": "assets/img/10.jpg"
       }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "user": "mauricio.arrieira",
+      "password": "teste123",
+      "token": "jfldjfoemlcwkdncpweifhewhewpcnwcepofhewfnowepp"
+    },
+    {
+      "id": 2,
+      "user": "BMW X7",
+      "password": "Preto",
+      "token": 455.95
+    },
+    {
+      "id": 3,
+      "user": "BMW X7",
+      "password": "Preto",
+      "token": 455.95
+    },
+    {
+      "id": 4,
+      "user": "mauricio.realan",
+      "password": "teste123",
+      "token": "jfldjfoemlcwkdncpweifhewhewpcnwcepofhewfnowepp"
+    },
+    {
+      "id": 5,
+      "user": "mauricio.desouza",
+      "password": "teste123",
+      "token": "jfldjfoemlcwkdncpweifhewhewpcnwcepofhewfnowepp"
+    },
+    {
+      "id": 6,
+      "user": "mauricio.teste",
+      "password": "teste123",
+      "token": "jokeirpjw94pfn439f3f"
+    }
   ]
 }
 

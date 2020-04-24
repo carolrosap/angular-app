@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-customers',
@@ -15,7 +16,9 @@ export class CustomersComponent implements OnInit {
     { name: 'Série', isSelected: true, isDisabled: false, value: null, id: 'opt-radio-5' },
     { name: 'Outro', isSelected: true, isDisabled: false, value: null, id: 'opt-radio-6' }
   ];
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
   }
@@ -23,4 +26,7 @@ export class CustomersComponent implements OnInit {
     console.log('type: ', type);
   }
 
+  login() {
+    this.router.navigate(['login']);
+  }
 }

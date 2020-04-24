@@ -1,0 +1,26 @@
+<div class="box">
+  <div class="center">
+    <div class="row">
+      <div>
+        <label>Usuário</label>
+        <input #us type="text" class="input-user" (input)="setUser(us.value)"/>
+      </div>
+      <div class="pass-div">
+        <label>Senha</label>
+        <input #pass type="password" class="input-user pass-input" (input)="setPassword(pass.value)"/>
+      </div>
+      <div style="display: inline-flex;">
+        <div>
+          <button class="progress-btn" (click)="saveUser()">
+            Novo Cadastro
+          </button>
+        </div>
+        <div>
+          <button class="progress-btn" (click)="getUser()" [disabled]="user == null || password == null">
+            Entrar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
