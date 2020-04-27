@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Interceptor } from './auth/interceptor.module';
 import { SharedModule } from './shared/shared.module';
+import { AutenticationService } from './auth/autentication.service';
+import { AuthGuard } from './auth/auth.guard';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,10 @@ import { SharedModule } from './shared/shared.module';
     Interceptor,
     SharedModule
   ],
-  providers: [],
+  providers: [
+    AutenticationService,
+    AuthGuard
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -8,8 +8,8 @@
       "phone": "(51)9761456",
       "active": "true",
       "img": "assets/img/1.jpg"
-      },
-      {
+    },
+    {
       "id": "2",
       "cpf": "03034903768",
       "name": "Nixon Eleanor Benson",
@@ -17,8 +17,8 @@
       "phone": "(51)9172715",
       "active": "true",
       "img": "assets/img/2.jpg"
-      },
-      {
+    },
+    {
       "id": "3",
       "cpf": "03063016987",
       "name": "Warren Eleanor Lloyd",
@@ -26,8 +26,8 @@
       "phone": "(51)9578425",
       "active": "false",
       "img": "assets/img/3.jpg"
-      },
-      {
+    },
+    {
       "id": "4",
       "cpf": "03098603372",
       "name": "Padgett Brett Houston",
@@ -35,8 +35,8 @@
       "phone": "(51)9714610",
       "active": "false",
       "img": "assets/img/4.jpg"
-      },
-      {
+    },
+    {
       "id": "5",
       "cpf": "03037520846",
       "name": "Caldwell Gilbert Chen",
@@ -44,8 +44,8 @@
       "phone": "(51)942200",
       "active": "true",
       "img": "assets/img/5.jpg"
-      },
-      {
+    },
+    {
       "id": "6",
       "cpf": "03059983005",
       "name": "Daly Henry Huff",
@@ -53,8 +53,8 @@
       "phone": "(51)9844815",
       "active": "true",
       "img": "assets/img/6.jpg"
-      },
-      {
+    },
+    {
       "id": "7",
       "cpf": "03067863505",
       "name": "Zhang Barbara Lam",
@@ -62,8 +62,8 @@
       "phone": "(51)9810923",
       "active": "true",
       "img": "assets/img/7.jpg"
-      },
-      {
+    },
+    {
       "id": "8",
       "cpf": "03088703103",
       "name": "French Sandra Cobb",
@@ -71,8 +71,8 @@
       "phone": "(51)9400558",
       "active": "true",
       "img": "assets/img/8.jpg"
-      },
-      {
+    },
+    {
       "id": "9",
       "cpf": "03022297928",
       "name": "Hinton Lois Zhang",
@@ -80,8 +80,8 @@
       "phone": "(51)9423692",
       "active": "false",
       "img": "assets/img/9.jpg"
-      },
-      {
+    },
+    {
       "id": "10",
       "cpf": "03073809261",
       "name": "Norman Robert Walton",
@@ -89,7 +89,7 @@
       "phone": "(51)9132804",
       "active": "true",
       "img": "assets/img/10.jpg"
-      }
+    }
   ],
   "users": [
     {
@@ -127,7 +127,12 @@
       "user": "mauricio.teste",
       "password": "teste123",
       "token": "jokeirpjw94pfn439f3f"
+    },
+    {
+      "id": 7,
+      "user": "carolrosap",
+      "password": "1235",
+      "token": "jokeirpjw94pfn439f3f"
     }
   ]
 }
-

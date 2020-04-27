@@ -2,6 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { User } from '../models/user-module';
+import { environment } from 'src/environments/environment';
+
+
 
 @Injectable({
   providedIn: 'root'
@@ -20,7 +23,7 @@ export class UserService {
 
   // Obtem a lista de usuarios
   getUsers(): Observable<User[]> {
-    // this.url = environment.url;
+    this.url = environment.url;
     return this.httpClient.get<User[]>(this.url);
   }
 
